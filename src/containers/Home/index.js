@@ -21,7 +21,7 @@ const App = () => {
   }
 
   const addNewOrder = async () => {
-    const { data: order } = await axios.post("http://localhost:3001/order", {
+    const { data: order } = await axios.post("https://teste-burguer.herokuapp.com/order", {
       order: inputNameOrder.current.value,
       clientName: inputNameClient.current.value
     })
