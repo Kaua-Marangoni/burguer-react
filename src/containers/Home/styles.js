@@ -1,139 +1,148 @@
 import styled from "styled-components"
 
 export const Container = styled.div`
-    min-height: 100vh;
+  min-height: 100vh;
 
-    background: #0A0A10;
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  background: #0a0a10;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `
 
 export const Image = styled.img`
-    width: 260px;
-    margin: 10px 0 25px 0;
+  width: 260px;
+  margin: 10px 0 25px 0;
 `
 
 export const ContainerItens = styled.div`
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 `
 
 export const H1 = styled.h1`
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 
-    font-weight: bold;
-    font-size: 28px;
-    line-height: 33px;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
 
-    text-align: center;
+  text-align: center;
 
-    color: #FFFFFF;
+  color: #ffffff;
 `
 
 export const InputLabel = styled.p`
-    margin-left: 15px;
+  margin-left: 15px;
 
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 22px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
 
-    letter-spacing: -0.408px;
+  letter-spacing: -0.408px;
 
-    color: #EEEEEE;
+  color: #eeeeee;
 `
 
 export const Input = styled.input`
-    width: 342px;
-    height: 58px;
+  width: 342px;
+  height: 58px;
 
-    padding-left: 15px;
-    margin-bottom: 25px;
+  padding-left: 15px;
+  margin-bottom: 25px;
 
-    background: rgba(255, 255, 255, 0.25);
-    border-radius: 14px;
-    border: none;
-    outline: none;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 14px;
+  border: none;
+  outline: none;
 
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 21px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
 
-    color: #FFFFFF;
-    
-    &::placeholder {
-        color: #b3b3b3;
-    }
+  color: #ffffff;
+
+  &::placeholder {
+    color: #b3b3b3;
+  }
 `
 
+export const Loading = styled.div`
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+`
+
+export const ErrorInput = styled.p``
+
 export const Button = styled.button`
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    
-    background: #D93856;
-    color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 
-    margin-top: 30px;
+  background: #d93856;
+  color: #ffffff;
 
-    transition: all .1s;
+  margin-top: 30px;
 
-    width: 342px;
-    height: 68px;
+  transition: all 0.1s;
 
-    border-radius: 14px;
-    border: none;
-    outline: none;
+  width: 342px;
+  height: 68px;
 
-    font-weight: 900;
-    font-size: 17px;
-    line-height: 2px;
+  border-radius: 14px;
+  border: none;
+  outline: none;
 
-    cursor: pointer;
+  font-weight: 900;
+  font-size: 17px;
+  line-height: 2px;
 
-    &:hover {
-        opacity: 0.8;
-    }
+  cursor: pointer;
 
-    &:active {
-        opacity: 0.6;
-    }
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
 `
 
 export const ButtonGoOrders = styled.button`
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    
-    background: #e67e22;
-    color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 
-    margin: 15px 0 50px 0;
+  background: #e67e22;
+  color: #ffffff;
 
-    transition: all .1s;
+  margin: 15px 0 50px 0;
 
-    width: 342px;
-    height: 68px;
+  transition: all 0.1s;
 
-    border-radius: 14px;
-    border: none;
-    outline: none;
+  width: 342px;
+  height: 68px;
 
-    font-weight: 900;
-    font-size: 17px;
-    line-height: 2px;
+  border-radius: 14px;
+  border: none;
+  outline: none;
 
-    cursor: pointer;
+  font-weight: 900;
+  font-size: 17px;
+  line-height: 2px;
 
-    &:hover {
-        opacity: 0.8;
-    }
+  cursor: pointer;
 
-    &:active {
-        opacity: 0.6;
-    }
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
 `
